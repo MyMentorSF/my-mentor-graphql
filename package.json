@@ -1,0 +1,21 @@
+{
+  "name": "graphql-hello-world",
+  "version": "1.0.0",
+  "description": "Personal reference for graphql projects.",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.mjs",
+    "nodemon": "nodemon index.mjs"
+  },
+  "keywords": [
+    "mobi",
+    "learn"
+  ],
+  "author": "ivan jaimes",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server-express": "^2.15.1",
+    "graphql": "^15.3.0"
+  }
+}
